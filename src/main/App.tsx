@@ -45,7 +45,7 @@ const App: FC = () => {
         pauseOnHover
         position={width >= dimensions.laptop ? 'bottom-right' : 'top-right'}
         style={{ padding: '12px' }}
-        theme={'light'}
+        theme={theme}
       />
     </QueryClientProvider>
   );
